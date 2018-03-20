@@ -1,4 +1,5 @@
 require_relative '../lib/turn'
+<<<<<<< HEAD
 
 puts "Welcome to Tic Tac Toe!"
 
@@ -10,5 +11,14 @@ move(board, 4, "X")
 move(board, 0, "O")
 move(board, 1, "X")
 
+=======
+index =-1
+puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Please enter 1-9:"
+input = gets.strip
+input = input_to_index(input)
+index = input
+>>>>>>> 9ab705fc29e8779dcb7ceef598ecb2dad92b7c91
 display_board(board)
 turn(board)
