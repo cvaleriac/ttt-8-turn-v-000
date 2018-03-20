@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 Integer index = -1
->>>>>>> 9ab705fc29e8779dcb7ceef598ecb2dad92b7c91
+
 # display_board - method that prints a Tic Tac Toe board.
 # @board - String array containing "X", "O", " "
 # @returns a string board.
@@ -67,11 +65,9 @@ end
 # @board - string array.
 def turn (board)
   puts "Please enter 1-9:"
-<<<<<<< HEAD
   input = gets.strip
   index = input_to_index(input)
-=======
->>>>>>> 9ab705fc29e8779dcb7ceef598ecb2dad92b7c91
+
   if valid_move?(board, index)
      move(board, index)
      display_board(board)
